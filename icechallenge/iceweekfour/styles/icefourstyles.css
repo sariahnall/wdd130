@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(65, 151, 231, 0.694);
+    color: white;
+}
+h1{
+    font-size: 40px;
+}
+h1:hover{
+    color: black;
+}
+ol{
+    text-align: left;
+    color: black
+}
+.bio{
+    width: 40%;
+}
+blockquote{
+    font-size: 25px;
+}
+footer{
+    color: black;
+}
