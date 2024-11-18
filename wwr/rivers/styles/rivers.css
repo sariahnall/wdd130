@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+--heading-font: "Raleway", 'Times New Roman', serif; 
+--paragraph-font: "Old Standard TT", "Arial", sans-serif;
+}
+body{
+    background-color: rgb(212, 207, 207);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    background-color: #73B5BF;
+    color: white;
+    font-family: var(--heading-font);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 90px;
+    border-radius: 50%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: white;
+    color: #424242;
+}
+#title{
+    justify-items: center;
+}
+.rivers-hero{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.big-river{
+    position: absolute;
+    width: 95%;
+    justify-self: center;
+    z-index: -1;
+}
+.rivers-content{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.column{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+.column img{
+    width: 100%;
+    object-fit: cover;
+}
+.column-text{
+    padding: 15px;
+}
+.column-text p{
+    font-size: 14px;
+}
+.column-text h3{
+    font-size: 18px;
+    margin: 10px 0;
+}
+footer{
+    background-color: #424242;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #73B5BF;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer .social img{
+    padding-top: 15px;
+}
+footer p:hover{
+    text-decoration: underline;
+}

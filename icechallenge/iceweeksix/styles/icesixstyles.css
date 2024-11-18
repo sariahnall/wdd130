@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 1em
+}
+
+#tart {
+    font-size: 12em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 4;
+    text-align: center;
+}
+
+#greybox {
+    background-color: gray;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#pic {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#cherries {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(168, 64, 64);
+    font-size: 5em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
